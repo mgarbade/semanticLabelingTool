@@ -2,9 +2,9 @@
 Tool to create ground truth semantic segmentation masks using super pixels  
 
 Prerequisites:  
--> [vl_feat library](http://www.vlfeat.org/) including the function to compute superpixels:
- - vl_slic
+ - Download and extract [vl_feat library](http://www.vlfeat.org/) including the function to compute superpixels `vl_slic`
+ - Add the all extracted folders to your Matlab path
 
--> Matlab functions:
+You need the following Matlab functions:
  - regionprops
  - bwperim
