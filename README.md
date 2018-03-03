@@ -9,3 +9,7 @@ Prerequisites:
 You need the following Matlab functions:
  - regionprops
  - bwperim
+
+
+TODOs:
+ - Replace system [call to caffe-deeplab](https://github.com/mgarbade/semanticLabelingTool/blob/43cbde95bf7fbd802e0f25f773517d2a3956cb82/getSematicLabels.m#L1-L41) by some easier-to-install NN library, eg pytorch
